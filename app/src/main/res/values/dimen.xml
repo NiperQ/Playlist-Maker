@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btnMarginStart">17dp</dimen>
+    <dimen name="btnMarginEnd">15dp</dimen>
+    <dimen name="icPadding">10dp</dimen>
+    <dimen name="mainFontSize">22sp</dimen>
+    <dimen name="settingsFontSize">16sp</dimen>
+    <dimen name="cornerRadius">16dp</dimen>
+</resources>
