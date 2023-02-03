@@ -2,15 +2,13 @@ package com.timofey.playlistmaker
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.ImageView
+import com.google.android.material.appbar.MaterialToolbar
 
 class SettingsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_settings)
-        val back = findViewById<ImageView>(R.id.backBtn)
-        back.setOnClickListener {
-            finish()
-        }
+        val toolbar = findViewById<MaterialToolbar>(R.id.action_bar)
+        toolbar.setNavigationOnClickListener { finish() }
     }
 }
